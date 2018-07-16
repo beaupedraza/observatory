@@ -1,4 +1,4 @@
-/* Same at any resolution */
+/* Keep same at any res */
 
 body {
     background: #345;
@@ -20,12 +20,12 @@ a {
 }
 
 #dropdown {
-    /* Size/Spacing */
+    /* Sizing, Spacing */
     margin: 0 auto;
     text-align: right;
 }
 #dropdown-button {
-    /* Decorations */
+    /* Decor - Update */
     background: #222;
     border: 1px solid black;
     text-align: left;
@@ -33,7 +33,7 @@ a {
     color: #ccc;
 }
 #dropdown-button:hover, #search-button:hover {
-    /* Decorations */
+    /* Decor - Update */
     cursor: pointer;
 }
 #dropdown-menu {
@@ -57,13 +57,14 @@ li:nth-last-child(2) {
     width: 100%;
 }
 .fa-angle-down, .fa-tv-retro, .fa-headphones, .fa-book, .fa-images, .fa-gamepad, .fa-file-archive {
+    /* These are used as a baseline to be updated*/
     float: right;
     margin: 0 auto;
     text-align: center;
     padding-right: 5px;
 }z
 #search-box {
-        /* Decorations */
+        /* Decor - Update */
         background: #ddd;
         text-align: right;
         color: #333;
@@ -96,10 +97,10 @@ li:nth-last-child(2) {
         display: inline-block;
     }    
     #dropdown-button {
-        /* Decorations */
+        /* Decor - Update */
         border-radius: 10px 0 0 10px;
         
-        /* Size/Spacing */
+        /* Sizing, Spacing */
         padding: 10px;
         margin: 0;
         width: 180px;
@@ -126,7 +127,7 @@ li:nth-last-child(2) {
         border-radius: 0 0 10px 10px;
     }
     #search-box {
-        /* Size/Spacing */
+        /* Sizing, Spacing */
         padding: 10px;
         margin: -6px;
         width: 60%;
@@ -134,10 +135,10 @@ li:nth-last-child(2) {
         border: 2px solid #000;
     }
     #search-button {
-        /* Decorations */    
+        /* Decor - Update */    
         border-radius: 0 10px 10px 0;
 
-        /* Size/Spacing */
+        /* Sizing, Spacing */
         padding: 10px;
         margin: 0;
         width: 40px;
@@ -161,12 +162,12 @@ li:nth-last-child(2) {
         width: 100%;
     }
     #dropdown-button {
-        /* Decorations */
+        /* Decor - Update */
         border-radius: 10px 10px 0 0;
         font-size: 1.6rem;
         font-weight: 600;
         
-        /* Size/Spacing */
+        /* Sizing, Spacing */
         padding: 10px;
         margin: 0;
         width: 100%;
@@ -180,7 +181,7 @@ li:nth-last-child(2) {
         padding: 0px;
         box-shadow: 0px 0px 40px #000;
         -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-        -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+        -moz-box-sizing: border-box;    /* Firefox, other */
         box-sizing: border-box;         /* Opera/IE 8+ */
     }
     ul {
@@ -193,24 +194,24 @@ li:nth-last-child(2) {
         margin: 0 auto;
     }
     #search-box {
-        /* Size/Spacing */
+        /* Sizing, Spacing */
         padding: 10px;
         margin: -1px 0;
         width: 100%;
         border: 1px solid #000;
         -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-        -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+        -moz-box-sizing: border-box;    /* Firefox, other */
         box-sizing: border-box;         /* Opera/IE 8+ */
         height: 60px;
     }
     #search-button {
-        /* Decorations */    
+        /* Decor - Update */    
         border-radius: 0 0 10px 10px;
         font-size: 1.6rem;
         font-weight: 600;
         content: "Search";
 
-        /* Size/Spacing */
+        /* Sizing, Spacing */
         padding: 10px;
         margin: 0;
         width: 100%;
