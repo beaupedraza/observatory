@@ -1,5 +1,5 @@
 /////////////////////////////////////////////////
-//                Var - Test                   //
+//                Variables                    //
 /////////////////////////////////////////////////
     var button = $('#dropdown-button')
 	var subMenu = $('#dropdown-menu')
@@ -62,7 +62,7 @@ $(document).ready(function() {
   searchBox.focus();
     
   searchButton.click(function() {
-    var type = button.val();                                                            // Set the type variable to the value of the button.
+    var type = button.val();                                                            // Set the type valriable to the value of the button.
     var query = searchBox.val();                                                        // Set the Query variable to the value of the text box.
     var arr = new Array();                                                              // Create a new blank array.
     var commonToAll = " -inurl:(jsp|pl|php|html|aspx|htm|cf|shtml) " +                  // This string is common to all searches.
@@ -121,7 +121,7 @@ $(document).ready(function() {
         var goodinput = "intext:\"" + last + "\"";
         var finalquery = goodinput + extensions + commonToAll;
 
-        var url = "https://www.google.com/search?q=" + encodeURIComponent(finalquery);
+        var url = "https://www.google.com/search?q=" + encodeURIComponent(finalquery);			// Appends to user query in new window
         //alert(goodinput);
         window.open(url, '_blank');
       }
