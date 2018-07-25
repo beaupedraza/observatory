@@ -1,39 +1,35 @@
-/* Keep same at any res */
+/* Same at any resolution */
 
 body {
-    background: #345;
+    background: #4b4e53;
 }
 h1 {
-    color: #ddd;
+    color: #b54e1c;
     text-align: center;
 }
 p {
-    color: #ddd;
+    color: #b54e1c;
     text-align: center;
 }
 a {
     text-decoration: none;
-    color: #ccc;
+    color: #2bacbe;
 }
-.adsbygoogle {
-    margin: 40px auto 0 auto;
-}
-
 #dropdown {
-    /* Sizing, Spacing */
+    /* Size/Spacing */
     margin: 0 auto;
     text-align: right;
 }
 #dropdown-button {
-    /* Decor - Update */
+    /* Decorations */
     background: #222;
     border: 1px solid black;
     text-align: left;
     outline: none;
-    color: #ccc;
+    color: #2bacbe;
 }
 #dropdown-button:hover, #search-button:hover {
-    /* Decor - Update */
+    /* Decorations */
     cursor: pointer;
 }
 #dropdown-menu {
@@ -50,22 +46,21 @@ li {
     display: block;
 }
 li:hover {
-    background: #ddd;
+    background: #4b4e53;
 }
 li:nth-last-child(2) {
     padding: 0px;
     width: 100%;
 }
 .fa-angle-down, .fa-tv-retro, .fa-headphones, .fa-book, .fa-images, .fa-gamepad, .fa-file-archive {
-    /* These are used as a baseline to be updated*/
     float: right;
     margin: 0 auto;
     text-align: center;
     padding-right: 5px;
 }z
 #search-box {
-        /* Decor - Update */
-        background: #ddd;
+        /* Decorations */
+        background: #b54e1c;
         text-align: right;
         color: #333;
         font-size: 1rem;
@@ -97,10 +92,10 @@ li:nth-last-child(2) {
         display: inline-block;
     }    
     #dropdown-button {
-        /* Decor - Update */
+        /* Decorations */
         border-radius: 10px 0 0 10px;
         
-        /* Sizing, Spacing */
+        /* Size/Spacing */
         padding: 10px;
         margin: 0;
         width: 180px;
@@ -127,7 +122,7 @@ li:nth-last-child(2) {
         border-radius: 0 0 10px 10px;
     }
     #search-box {
-        /* Sizing, Spacing */
+        /* Size/Spacing */
         padding: 10px;
         margin: -6px;
         width: 60%;
@@ -135,10 +130,10 @@ li:nth-last-child(2) {
         border: 2px solid #000;
     }
     #search-button {
-        /* Decor - Update */    
+        /* Decorations */    
         border-radius: 0 10px 10px 0;
 
-        /* Sizing, Spacing */
+        /* Size/Spacing */
         padding: 10px;
         margin: 0;
         width: 40px;
@@ -162,12 +157,12 @@ li:nth-last-child(2) {
         width: 100%;
     }
     #dropdown-button {
-        /* Decor - Update */
+        /* Decorations */
         border-radius: 10px 10px 0 0;
         font-size: 1.6rem;
         font-weight: 600;
         
-        /* Sizing, Spacing */
+        /* Size/Spacing */
         padding: 10px;
         margin: 0;
         width: 100%;
@@ -181,7 +176,7 @@ li:nth-last-child(2) {
         padding: 0px;
         box-shadow: 0px 0px 40px #000;
         -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-        -moz-box-sizing: border-box;    /* Firefox, other */
+        -moz-box-sizing: border-box;    /* Firefox, other Gecko */
         box-sizing: border-box;         /* Opera/IE 8+ */
     }
     ul {
@@ -194,24 +189,24 @@ li:nth-last-child(2) {
         margin: 0 auto;
     }
     #search-box {
-        /* Sizing, Spacing */
+        /* Size/Spacing */
         padding: 10px;
         margin: -1px 0;
         width: 100%;
         border: 1px solid #000;
         -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-        -moz-box-sizing: border-box;    /* Firefox, other */
+        -moz-box-sizing: border-box;    /* Firefox, other Gecko */
         box-sizing: border-box;         /* Opera/IE 8+ */
         height: 60px;
     }
     #search-button {
-        /* Decor - Update */    
+        /* Decorations */    
         border-radius: 0 0 10px 10px;
         font-size: 1.6rem;
         font-weight: 600;
         content: "Search";
 
-        /* Sizing, Spacing */
+        /* Size/Spacing */
         padding: 10px;
         margin: 0;
         width: 100%;
